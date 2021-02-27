@@ -1,4 +1,4 @@
-package com.example.feliziademo
+package com.felizia.feliziademo
 
 import org.junit.Test
 
