@@ -221,7 +221,7 @@ public class HeadersSupportFragment extends BaseRowSupportFragment {
         adapter.setAdapterListener(mAdapterListener);
         adapter.setWrapper(mWrapper);
     }
-    void setBackgroundColor(int color) {
+    public void setBackgroundColor(int color) {
         mBackgroundColor = color;
         mBackgroundColorSet = true;
         if (getVerticalGridView() != null) {
@@ -238,37 +238,7 @@ public class HeadersSupportFragment extends BaseRowSupportFragment {
                     new int[] {Color.TRANSPARENT, backgroundColor});
         }
     }
-    @Override
-    public void onTransitionStart() {
-        super.onTransitionStart();
-        if (!mHeadersEnabled) {
-            // When enabling headers fragment,  the RowHeaderView gets a focus but
-            // isShown() is still false because its parent is INVISIBLE, accessibility
-            // event is not sent.
-            // Workaround is: prevent focus to a child view during transition and put
-            // focus on it after transition is done.
-            final VerticalGridView listView = getVerticalGridView();
-            if (listView != null) {
-                listView.setDescendantFocusability(ViewGroup.FOCUS_BEFORE_DESCENDANTS);
-                if (listView.hasFocus()) {
-                    listView.requestFocus();
-                }
-            }
-        }
-    }
-    @Override
-    public void onTransitionEnd() {
-        if (mHeadersEnabled) {
-            final VerticalGridView listView = getVerticalGridView();
-            if (listView != null) {
-                listView.setDescendantFocusability(ViewGroup.FOCUS_AFTER_DESCENDANTS);
-                if (listView.hasFocus()) {
-                    listView.requestFocus();
-                }
-            }
-        }
-        super.onTransitionEnd();
-    }
+
     public boolean isScrolling() {
         return getVerticalGridView().getScrollState()
                 != HorizontalGridView.SCROLL_STATE_IDLE;

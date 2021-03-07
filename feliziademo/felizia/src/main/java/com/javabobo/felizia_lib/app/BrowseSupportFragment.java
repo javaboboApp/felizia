@@ -1052,8 +1052,7 @@ public class BrowseSupportFragment extends BaseSupportFragment {
         onExpandTransitionStart(!withHeaders, new Runnable() {
             @Override
             public void run() {
-                mHeadersSupportFragment.onTransitionPrepare();
-                mHeadersSupportFragment.onTransitionStart();
+
                 createHeadersTransition();
                 if (mBrowseTransitionListener != null) {
                     mBrowseTransitionListener.onHeadersTransitionStart(withHeaders);
@@ -1360,7 +1359,7 @@ public class BrowseSupportFragment extends BaseSupportFragment {
                     }
                 }
                 if (mHeadersSupportFragment != null) {
-                    mHeadersSupportFragment.onTransitionEnd();
+
                     if (mShowingHeaders) {
                         VerticalGridView headerGridView = mHeadersSupportFragment.getVerticalGridView();
                         if (headerGridView != null && !headerGridView.hasFocus()) {
@@ -1676,7 +1675,7 @@ public class BrowseSupportFragment extends BaseSupportFragment {
     @Override
     public void onStart() {
         super.onStart();
-        mHeadersSupportFragment.setAlignment(mContainerListAlignTop);
+
         setMainFragmentAlignment();
 
         if (mCanShowHeaders && mShowingHeaders && mHeadersSupportFragment != null
@@ -1818,14 +1817,14 @@ public class BrowseSupportFragment extends BaseSupportFragment {
 
     @Override
     protected void onEntranceTransitionPrepare() {
-        mHeadersSupportFragment.onTransitionPrepare();
+
         mMainFragmentAdapter.setEntranceTransitionState(false);
         mMainFragmentAdapter.onTransitionPrepare();
     }
 
     @Override
     protected void onEntranceTransitionStart() {
-        mHeadersSupportFragment.onTransitionStart();
+
         mMainFragmentAdapter.onTransitionStart();
     }
 
@@ -1836,7 +1835,7 @@ public class BrowseSupportFragment extends BaseSupportFragment {
         }
 
         if (mHeadersSupportFragment != null) {
-            mHeadersSupportFragment.onTransitionEnd();
+
         }
     }
 

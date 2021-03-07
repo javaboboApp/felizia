@@ -14,7 +14,7 @@ import androidx.leanback.widget.Row;
  * bounds to reflect the latest data.
  * {@link #detach()} must be called to release DataObserver from Adapter.
  */
-class ListRowDataAdapter extends ObjectAdapter {
+public class ListRowDataAdapter extends ObjectAdapter {
     public static final int ON_ITEM_RANGE_CHANGED = 2;
     public static final int ON_ITEM_RANGE_INSERTED = 4;
     public static final int ON_ITEM_RANGE_REMOVED = 8;
