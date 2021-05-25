@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/felizia.iml" filepath="$PROJECT_DIR$/.idea/felizia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library.iml" filepath="$PROJECT_DIR$/.idea/modules/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/library.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/library.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/library.library.iml" filepath="$PROJECT_DIR$/.idea/modules/library/library.library.iml" />
     </modules>
   </component>
 </project>
