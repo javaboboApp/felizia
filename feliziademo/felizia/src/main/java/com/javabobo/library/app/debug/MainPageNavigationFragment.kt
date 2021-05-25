@@ -1,10 +1,10 @@
-package com.javabobo.felizia_lib.app.debug
+package com.javabobo.library.app.debug
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.javabobo.felizia_lib.databinding.FragmentMainPageNavigationBinding
+import com.javabobo.library.databinding.FragmentMainPageNavigationBinding
 
 /**
  * A fragment that user leanback components in kotlin.

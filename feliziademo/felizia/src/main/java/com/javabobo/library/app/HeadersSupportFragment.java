@@ -1,4 +1,4 @@
-package com.javabobo.felizia_lib.app;
+package com.javabobo.library.app;
 
 /*
  * Copyright (C) 2014 The Android Open Source Project
@@ -23,7 +23,6 @@ import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnLayoutChangeListener;
-import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

@@ -1,4 +1,4 @@
-package com.felizia.feliziademo
+package com.felizia.demo
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

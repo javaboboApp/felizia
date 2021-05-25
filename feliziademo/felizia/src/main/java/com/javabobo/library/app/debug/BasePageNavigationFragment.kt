@@ -1,4 +1,4 @@
-package com.javabobo.felizia_lib.app.debug
+package com.javabobo.library.app.debug
 
 import android.graphics.Rect
 import android.view.View

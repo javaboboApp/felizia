@@ -1,7 +1,6 @@
-package com.felizia.feliziademo
+package com.felizia.demo
 
 import android.app.Activity
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
 class HomeActivity : Activity() {

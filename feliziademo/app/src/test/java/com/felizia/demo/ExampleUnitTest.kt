@@ -1,4 +1,4 @@
-package com.felizia.feliziademo
+package com.felizia.demo
 
 import org.junit.Test
 

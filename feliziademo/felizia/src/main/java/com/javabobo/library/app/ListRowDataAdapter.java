@@ -1,4 +1,4 @@
-package com.javabobo.felizia_lib.app;
+package com.javabobo.library.app;
 
 import androidx.leanback.widget.ObjectAdapter;
 import androidx.leanback.widget.Row;

@@ -1,4 +1,4 @@
-package com.javabobo.felizia_lib
+package com.javabobo.library
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-/*
+package com.javabobo.library.app;/*
  * Copyright (C) 2014 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
@@ -11,7 +11,6 @@
  * or implied. See the License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.felizia.source.leanback.src.main.java.androidx.leanback.app;
 
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;

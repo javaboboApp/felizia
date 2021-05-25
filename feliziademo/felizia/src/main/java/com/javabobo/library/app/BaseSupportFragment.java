@@ -11,7 +11,7 @@
  * or implied. See the License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.javabobo.felizia_lib.app;
+package com.javabobo.library.app;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
@@ -34,7 +34,7 @@ import androidx.leanback.util.StateMachine.State;
 @SuppressWarnings("FragmentNotInstantiable")
 
 @SuppressLint("RestrictedApi")
-public class BaseSupportFragment extends com.felizia.source.leanback.src.main.java.androidx.leanback.app.BrandedSupportFragment {
+public class BaseSupportFragment extends BrandedSupportFragment {
 
     /**
      * The start state for all
