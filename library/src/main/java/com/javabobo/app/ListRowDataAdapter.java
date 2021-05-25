@@ -1,4 +1,4 @@
-package com.javabobo.library.app;
+package com.javabobo.app;
 
 import androidx.leanback.widget.ObjectAdapter;
 import androidx.leanback.widget.Row;

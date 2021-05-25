@@ -1,4 +1,4 @@
-package com.javabobo.library.app.debug
+package com.javabobo.app.debug
 
 import android.os.Bundle
 import android.view.LayoutInflater

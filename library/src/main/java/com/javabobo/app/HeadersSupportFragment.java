@@ -1,4 +1,4 @@
-package com.javabobo.library.app;
+package com.javabobo.app;
 
 /*
  * Copyright (C) 2014 The Android Open Source Project

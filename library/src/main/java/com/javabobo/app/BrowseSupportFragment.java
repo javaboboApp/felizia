@@ -11,7 +11,7 @@
  * or implied. See the License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.javabobo.library.app;
+package com.javabobo.app;
 
 import static androidx.recyclerview.widget.RecyclerView.NO_POSITION;
 

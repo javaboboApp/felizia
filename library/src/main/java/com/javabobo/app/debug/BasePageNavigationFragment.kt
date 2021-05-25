@@ -1,4 +1,4 @@
-package com.javabobo.library.app.debug
+package com.javabobo.app.debug
 
 import android.graphics.Rect
 import android.view.View

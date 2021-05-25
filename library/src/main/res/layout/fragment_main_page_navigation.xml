@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".app.debug.MainPageNavigationFragment">
+    tools:context="com.javabobo.app.debug.MainPageNavigationFragment">
     <!-- Main content -->
     <androidx.leanback.widget.BrowseFrameLayout
         android:focusable="true"
